@@ -1,0 +1,38 @@
+{
+  "name": "last-last-week",
+  "version": "0.1.0",
+  "description": "A command-line tool to open the most recent Last Week Tonight video in Youtube.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himynameisdave/last-last-week.git"
+  },
+  "keywords": [
+    "LastWeekTonight",
+    "JohnOliver",
+    "video",
+    "CLI",
+    "nodejs",
+    "YouTube",
+    "HBO"
+  ],
+  "bin": {
+    "last-last-week": "./index.js"
+  },
+  "author": "Dave Lunny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/himynameisdave/last-last-week/issues"
+  },
+  "homepage": "https://github.com/himynameisdave/last-last-week#readme",
+  "dependencies": {
+    "open": "0.0.5",
+    "request-promise": "^1.0.2"
+  }
+}
